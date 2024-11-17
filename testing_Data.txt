@@ -1,0 +1,64 @@
+//dumping interesting test data
+
+//this is one of the first 3 step rule created, with one memory layer only
+//it creates a beautiful rainbow pattern with half of the screen being a mess and the other half
+// a mesmerizing pattern
+{
+    "r": {
+        "g": "b",
+        "b": "g",
+        "r": "g"
+    },
+    "b": {
+        "r": "b",
+        "b": "r",
+        "g": "r"
+    },
+    "g": {
+        "r": "b",
+        "g": "r",
+        "b": "g"
+    }
+}
+
+
+//this creates a crazy swirling pink and white pattern (white and pink are not colors from the set, only r g b with 2 hues each , one for 0 and one for 1)
+{
+    "r": {
+        "b": "r",
+        "r": "b",
+        "g": "g"
+    },
+    "g": {
+        "r": "r",
+        "b": "g",
+        "g": "b"
+    },
+    "b": {
+        "r": "r",
+        "g": "r",
+        "b": "r"
+    }
+}
+
+
+
+
+//this one creates a v shaped thing on the middle of the screen, that splits into another v thing 
+{
+    "g": {
+        "r": "b",
+        "g": "g",
+        "b": "r"
+    },
+    "b": {
+        "g": "r",
+        "r": "g",
+        "b": "r"
+    },
+    "r": {
+        "g": "g",
+        "r": "b",
+        "b": "g"
+    }
+}

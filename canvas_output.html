@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Self writing program with canvas output</title>
+    <style>
+      canvas {
+        border: 1px solid white;
+      }
+    </style>
+  </head>
+  <body style="background: black">
+    <!-- output from the memory turned into color,
+      maybe some patter can be seen better like this -->
+    <div style="color: white; margin-bottom: 5px" id="memoryInfo">
+      Current memory layer: 0 || Total memory layers : 1
+    </div>
+    <canvas id="mainMemoryCanvas"></canvas>
+
+    <!-- load code generator -->
+    <script type="text/javascript" type="module" src="./SWP_v3.js"></script>
+    <!-- load output generator (draws the generated code on the canvas) -->
+    <script type="text/javascript" type="module" src="./outputMain.js"></script>
+  </body>
+</html>
